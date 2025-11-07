@@ -11,7 +11,7 @@ import jakarta.persistence.Table;
 @Table(name = "detalles")
 public class DetalleOrden {
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY) // anotacion JPA
+	@GeneratedValue(strategy = GenerationType.IDENTITY) // Anotación JPA
 	private Integer id;
 	private String nombres;
 	private Double cantidad;
